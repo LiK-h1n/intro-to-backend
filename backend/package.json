@@ -1,0 +1,27 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "a tutorial for intro to backend",
+  "homepage": "https://github.com/LiK-h1n/intro-to-backend#readme",
+  "bugs": {
+    "url": "https://github.com/LiK-h1n/intro-to-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiK-h1n/intro-to-backend.git"
+  },
+  "license": "ISC",
+  "author": "Nikhil",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.4",
+    "nodemon": "^3.1.14"
+  }
+}
